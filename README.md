@@ -19,16 +19,20 @@ While you are free to use this project for any purpose, know that many component
 
 ### TODOs
 - [ ] Tutorial
-- [ ] Screenshots
+  - [ ] Screenshots
+  - [ ] Link to components page
 - [ ] Refactor css/sass
-- [ ] Wire up mailchimp
+- [x] Wire up mailchimp
 - [ ] Move org items from config to _data?
 - [ ] Add CNAME
+- [ ] Add full credits/licenses
 
 ### Future
 - [ ] Google Analytics?
 - [ ] Robots meta as option?
 - [ ] Ability to handle fiscal sponsorship
+- [ ] Switch from Mailchimp to TinyLetter as default?
+- [ ] Troubleshooting tips
 
 
 ### License
