@@ -1,0 +1,51 @@
+#Set up is quick and easy. Simply enter the information below.
+
+#Required organization information
+org_name: Project Example
+org_summary: A mobile-friendly Github Pages template designed to help grassroots nonprofits get a website online quickly
+org_full_description: > # start writing your description on the next line
+  Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
+
+#Optional organization information
+org_general_email_inbox: your-email@somedomain.com
+org_street_address: 1355 Market Street #Please include suite number on the line below
+org_address_suite: Suite 900
+org_city: San Francisco
+org_state: CA
+org_zip: > # Enter zip on next line
+  94103
+org_phone: (123) 456-7890
+#Non US-address support coming soon :)
+
+#Are donations to your organization currently tax deductible?
+#If they are, remove the # symbol on the next line
+tax_deductibility: true
+#TODO: Handle orgs with fiscal sponsors
+
+#Email signups and donations
+#Replace with your own!!!!
+#Or leave blank if you do not wish to use
+mailchimp: placeholder #Only enter if using Mailchimp
+donorbox_campaign_name: free-template-demo #Only enter if using DonorBox
+
+#social media
+twitter_username: smartergiving
+facebook_username: smartergiving
+instagram_username:
+
+# *** DO NOT CHANGE ANYTHING BELOW THIS LINE ***
+# unless you know what you're doing, no need to change anything below
+# Build settings
+baseurl: "" # the subpath of your site, e.g. /blog/
+markdown: kramdown
+kramdown:
+  input: GFM
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+#Potential future options
+tinyletter_username: interestingnonprofits #Only enter if using TinyLetter
+paypal_button_id: #Only enter if using Paypal
+smartergiving_id: #Not yet available

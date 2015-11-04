@@ -1,0 +1,87 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+//@import "somefile";
+
+// Insert custom css below this line
+$primary-color: #2a435c;
+$secondary-color: #dd9d71;
+$medium-blue: #3a5d7f;
+.disabled-link {
+  pointer-events:none;
+}
+.logo-title:hover {
+  text-decoration: none;
+}
+.promo .title {
+  font-size: 65px;
+  color: #2a435c;
+  margin-top: 0;
+}
+.btns {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.promo .meta {
+    margin-top: 30px;
+}
+.donorbox {
+  margin-top: 60px;
+}
+.join-us-intro {
+  margin-top: 0;
+  color: #ddd !important;
+}
+.orange {
+  color: #dd9d71 !important;
+}
+.promo .social-icons a {
+    display: inline-block;
+    background: $medium-blue;
+    color: #fff;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    padding-top: 12px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    margin-right: 8px;
+    float: left;
+}
+.btn-outline, .btn-outline:link, .btn-outline:visited {
+    background-color: transparent;
+    border-radius: 5px;
+    &.btn-outline-primary {
+      border: 2px solid $primary-color;
+      color: $primary-color;
+    }
+    &.btn-outline-secondary {
+      border: 2px solid $secondary-color;
+      color: $secondary-color;
+    }
+    &.btn-outline-medium-blue {
+      border: 2px solid $medium-blue;
+      color: $medium-blue;
+    }
+}
+.btn-outline:hover {
+    color: #fff !important;
+    &.btn-outline-primary {
+      background-color: $primary-color;
+    }
+    &.btn-outline-secondary {
+      background-color: $secondary-color;
+    }
+    &.btn-outline-medium-blue {
+      background-color: $medium-blue;
+    }
+}
