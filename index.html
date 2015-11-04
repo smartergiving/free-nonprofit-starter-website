@@ -82,13 +82,13 @@ layout: default
       </div>
       <div class="col-sm-5 text-left text-left-sm">
         <p>Sign up to receive updates, progress reports and ways to get involved. We're excited to have you join our amazing community!</p>
-        {% unless site.mailchimp %}
+        {% unless site.mailchimp_embed_code %}
         <p><em>Sorry, email signup is not available at this time <i class="fa fa-frown-o"></i></em></p>
         {% else %}
         <p><em>No spam. Just the occasional update.</em></p>
 
         <div id="mc_embed_signup">
-          <form action="//the-open.us8.list-manage.com/subscribe/post?u=753395b9f963c9ea2d6980b7c&amp;id=9e1559c2f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate bs-component" target="_blank" novalidate>
+          <form action="{{ site.mailchimp_embed_code }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate bs-component" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
               <div class="form-group">
                 <label for="mce-EMAIL" class="sr-only">Email Address</label>

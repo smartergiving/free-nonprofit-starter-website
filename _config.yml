@@ -25,8 +25,9 @@ tax_deductibility: true
 #Email signups and donations
 #Replace with your own!!!!
 #Or leave blank if you do not wish to use
-mailchimp: placeholder #Only enter if using Mailchimp
 donorbox_campaign_name: free-template-demo #Only enter if using DonorBox
+mailchimp_embed_code: > # Enter Mailchimp post url on next line. See tutorial for instructions.
+  //getkyn.us5.list-manage.com/subscribe/post?u=1407d7ee4cd0d47986cd54315&amp;id=cdc32b64fe
 
 #social media
 twitter_username: smartergiving
