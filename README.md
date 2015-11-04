@@ -14,11 +14,12 @@ Made with :heart: from the folks at SmarterGiving
 
 ***
 ### Under Active Development
-While you are free to this project for any purpose, know that the data, file structure, and every other component are subject to change.
+While you are free to use this project for any purpose, know that many components do not yet work.
 ***
 
 ### TODOs
 - [ ] Tutorial
+- [ ] Screenshots
 - [ ] Refactor css/sass
 - [ ] Wire up mailchimp
 - [ ] Move org items from config to _data?
