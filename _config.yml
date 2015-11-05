@@ -1,4 +1,5 @@
-#Set up is quick and easy. Simply enter the information below.
+#Set up is quick and easy. Simply replace the example text below with your nonprofit's information.
+#If you'd like to leave a field blank, simply remove everything after the colon (:) or place a hashtag (#) at the start of the line
 
 #Required organization information
 org_name: Project Example
@@ -17,17 +18,14 @@ org_zip: > # Enter zip on next line
 org_phone: (123) 456-7890
 #Non US-address support coming soon :)
 
-#Are donations to your organization currently tax deductible?
-#If they are, remove the # symbol on the next line
+#Are you currently a registered 501(c)3 organization?
+#If not, remove 'true' and leave blank
 tax_deductibility: true
-#TODO: Handle orgs with fiscal sponsors
 
 #Email signups and donations
-#Replace with your own!!!!
-#Or leave blank if you do not wish to use
-donorbox_campaign_name: free-template-demo #Only enter if using DonorBox
-mailchimp_embed_code: > # Enter Mailchimp post url on next line. See tutorial for instructions.
-  //getkyn.us5.list-manage.com/subscribe/post?u=1407d7ee4cd0d47986cd54315&amp;id=cdc32b64fe
+#If you do not wish to use a service, simply remove everything after the colon (:), leaving the item blank
+donorbox_campaign_name: free-template-demo
+tinyletter_username: interestingnonprofits
 
 #social media
 twitter_username: smartergiving
@@ -46,7 +44,10 @@ sass:
     sass_dir: _sass
     style: compressed
 
-#Potential future options
-tinyletter_username: interestingnonprofits #Only enter if using TinyLetter
-paypal_button_id: #Only enter if using Paypal
+#Features under development
+#These are not yet fully supported, but should give you a head start if you know what you're doing
+paypal_button_id: #Not yet available
 smartergiving_id: #Not yet available
+#mailchimp_embed_code: > # Enter Mailchimp post url on next line.
+#  //getkyn.us5.list-manage.com/subscribe/post?u=1407d7ee4cd0d47986cd54315&amp;id=cdc32b64fe
+#mailchimp_spam_guard: b_753395b9f963c9ea2d6980b7c_9e1559c2f0
