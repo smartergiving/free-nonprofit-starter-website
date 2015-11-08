@@ -1,10 +1,12 @@
 #Set up is quick and easy. Simply replace the example text below with your nonprofit's information.
 #If you'd like to leave a field blank, simply remove everything after the colon (:) or place a hashtag (#) at the start of the line
+#If you see '> # Enter on the next line', be sure to leave the two spaces in front of your text on that next line
 
 #Required organization information
 org_name: Project Example
-org_summary: A mobile-friendly Github Pages template designed to help grassroots nonprofits get a website online quickly
-org_full_description: > # start writing your description on the next line
+org_summary: > # Enter your summary on the next line
+  A mobile-friendly Github Pages template designed to help grassroots nonprofits get a website online quickly
+org_full_description: > # Enter your description on the next line
   Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
 
 #Optional organization information
@@ -15,12 +17,13 @@ org_city: San Francisco
 org_state: CA
 org_zip: > # Enter zip on next line
   94103
-org_phone: (123) 456-7890
+org_phone: > # Enter phone on next line
+  (123) 456-7890
 #Non US-address support coming soon :)
 
 #Are you currently a registered 501(c)3 organization?
-#If not, remove 'true' and leave blank
-tax_deductibility: true
+#If you are, remove the hashtag symbol (#) below
+#501c3: true
 
 #Email signups and donations
 #If you do not wish to use a service, simply remove everything after the colon (:), leaving the item blank
@@ -33,7 +36,7 @@ facebook_username: smartergiving
 instagram_username:
 
 # *** DO NOT CHANGE ANYTHING BELOW THIS LINE ***
-# unless you know what you're doing, no need to change anything below
+# Unless you know what you're doing, no need to change anything below
 # Build settings
 baseurl: "" # the subpath of your site, e.g. /blog/
 markdown: kramdown

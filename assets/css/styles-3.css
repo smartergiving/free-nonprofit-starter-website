@@ -267,28 +267,28 @@ pre code {
   color: #2a435c;
   font-size: 18px;
 }
-/* ======= Features Section ======= */
-.features {
+/* ======= Join Section ======= */
+.join {
   padding: 80px 0;
   background: #6690b9;
   color: #fff;
 }
-.features .title {
+.join .title {
   color: #2a435c;
   margin-top: 0;
   margin-bottom: 30px;
 }
-.features a {
+.join a {
   color: #2a435c;
 }
-.features a:hover {
+.join a:hover {
   color: #1a2a39;
 }
-.features .feature-list li {
+.join .feature-list li {
   margin-bottom: 10px;
   color: #2a435c;
 }
-.features .feature-list li .fa {
+.join .feature-list li .fa {
   margin-right: 5px;
   color: #fff;
 }
@@ -332,17 +332,17 @@ pre code {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-/* ======= License Section ======= */
-.license {
+/* ======= Donate Section ======= */
+.donate {
   padding: 80px 0;
   background: #f5f5f5;
 }
-.license .title {
+.donate .title {
   margin-top: 0;
   margin-bottom: 60px;
   color: #2a435c;
 }
-.license .license-inner {
+.donate .donate-inner {
   max-width: 800px;
   background: #fff;
   padding: 30px;
@@ -356,11 +356,11 @@ pre code {
   background-clip: padding-box;
   margin: 0 auto;
 }
-.license .info {
+.donate .info {
   max-width: 760px;
   margin: 0 auto;
 }
-.license .cta-container {
+.donate .cta-container {
   max-width: 540px;
   margin: 0 auto;
   margin-top: 60px;
@@ -373,7 +373,7 @@ pre code {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-.license .cta-container .speech-bubble {
+.donate .cta-container .speech-bubble {
   background: #f2f6f9;
   color: #2a435c;
   padding: 30px;
@@ -388,7 +388,7 @@ pre code {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-.license .cta-container .speech-bubble:after {
+.donate .cta-container .speech-bubble:after {
   position: absolute;
   left: 50%;
   bottom: -10px;
@@ -401,13 +401,13 @@ pre code {
   border-right: 10px solid transparent;
   border-top: 10px solid #f2f6f9;
 }
-.license .cta-container .icon-holder {
+.donate .cta-container .icon-holder {
   margin-bottom: 15px;
 }
-.license .cta-container .icon-holder .fa {
+.donate .cta-container .icon-holder .fa {
   font-size: 56px;
 }
-.license .cta-container .intro {
+.donate .cta-container .intro {
   margin-bottom: 30px;
 }
 /* ======= Contact Section ======= */

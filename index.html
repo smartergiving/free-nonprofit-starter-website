@@ -22,9 +22,9 @@ layout: default
         <ul class="nav navbar-nav">
           <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
           <li class="nav-item"><a class="scrollto" href="#about">About</a></li>
-          <li class="nav-item"><a class="scrollto" href="#features">Join Us</a></li>
+          <li class="nav-item"><a class="scrollto" href="#join">Join Us</a></li>
           <li class="nav-item"><a class="scrollto" href="#contact">Contact</a></li>
-          <li class="nav-item last"><a class="scrollto orange" href="#license">Donate</a></li>
+          <li class="nav-item last"><a class="scrollto orange" href="#donate">Donate</a></li>
         </ul><!--//nav-->
       </div><!--//navabr-collapse-->
     </nav><!--//main-nav-->
@@ -72,8 +72,8 @@ layout: default
   </div><!--//container-->
 </section><!--//about-->
 
-<!-- ******FEATURES****** -->
-<section id="features" class="features section">
+<!-- ******JOIN****** -->
+<section id="join" class="join section">
   <div class="container text-center">
     <h2 class="title">Join Us</h2>
     <div class="row">
@@ -143,20 +143,22 @@ layout: default
       </div>
     </div>
   </div><!--//container-->
-</section><!--//features-->
+</section><!--//join-->
 
 <!-- ******DONATE****** -->
-<section id="license" class="license section text-center">
+<section id="donate" class="donate section text-center">
   <div class="container">
-    <div class="license-inner">
+    <div class="donate-inner">
       <h2 class="title text-center">Donate</h2>
       <div class="info">
         <p><strong>Become a donor today.</strong><br>As a small grassroots organization, know that every dollar will have an imense impact on our ability to continue working towards our mission.</p>
         {% if site.donorbox_campaign_name %}
         <div class="donorbox text-center">
-          <iframe src="https://donorbox.org/embed/{{ site.donorbox_campaign_name }}" height="685px" width="100%" style="max-width:500px; min-width:310px" seamless="seamless" name="donorbox" frameborder="0" scrolling="no"></iframe>
+          <iframe src="https://donorbox.org/embed/{{ site.donorbox_campaign_name }}" height="600px" width="100%" style="max-width:500px; min-width:310px" seamless="seamless" name="donorbox" frameborder="0" scrolling="no"></iframe>
         </div>
+        {% if site.501c3 %}
         <p>Contributions are tax deductible to the extent permitted by law.<br>{{ site.org_name }} is a 501(c)(3) organization.</p>
+        {% endif %}
         {% else %}
         <div class="donorbox text-center">
         </div>
@@ -183,7 +185,7 @@ layout: default
 
         </div><!--//btn-container-->
       </div><!--//cta-container-->
-    </div><!--//license-inner-->
+    </div><!--//donate-inner-->
   </div><!--//container-->
 </section><!--//how-->
 
@@ -195,8 +197,8 @@ layout: default
       <address class="text-center">
         <strong>{{ site.org_name }}</strong><br>
         {% if site.org_street_address %}{{ site.org_street_address }},&nbsp;{% endif %}{% if site.org_address_suite %}{{ site.org_address_suite }}<br>{% endif %}
-        {% if site.org_city %}{{ site.org_city }},&nbsp;{% endif %}{% if site.org_state %}{{ site.org_state }}&nbsp;{% endif %}{% if site.org_zip %}{{ site.org_zipe }}{% endif %}<br>
-        {% if site.phone %}
+        {% if site.org_city %}{{ site.org_city }},&nbsp;{% endif %}{% if site.org_state %}{{ site.org_state }}&nbsp;{% endif %}{% if site.org_zip %}{{ site.org_zip }}{% endif %}<br>
+        {% if site.org_phone %}
         <abbr title="Phone">P:</abbr> {{ site.org_phone }}
         {% endif %}
       </address>

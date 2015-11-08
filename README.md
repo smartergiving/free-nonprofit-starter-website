@@ -1,24 +1,24 @@
 
-## A Free Website Template for Nonprofits
+## A Free Website Template for Nonprofits  
 We're huge fans of [Github Pages](https://pages.github.com/) and wanted to help nonprofits take advantage of this powerful (and free!) tool. With about an hours worth of work you'll have a published website with the ability to accept online donations.
 
-But most importantly, by hosting your site on Github you'll allow volunteers to easily contribute to ongoing development of your site. 
+But most importantly, by hosting your site on Github you'll allow volunteers to easily contribute to ongoing development of your site. Welcome to the world of open source!
 
 ___
 *Made with :heart: from the folks at [SmarterGiving](https://smartergiving.org)*
 ___
 
-#### Key Features
+#### Key Features  
 1. Accept online donations  
 2. Capture email addresses to begin building your supporter database
 
-#### Demo
+#### Demo  
 [https://smartergiving.github.io/free-nonprofit-starter-website/](https://smartergiving.github.io/free-nonprofit-starter-website/)
 
-#### Screenshot
+#### Screenshot  
 ![Screenshot](screenshot.png?raw=true "Free Nonprofit Starter Template Screenshot")
 
-#### Benefits 
+#### Benefits  
 **Open Source**  
 Your site and its code will be hosted on Github. This makes it easy for any developer, designer, or copywriter to help customize your site.  
   
@@ -30,14 +30,14 @@ The third party services we've chosen (for payments and email capture) allow you
 
 ___
 
-### Usage
-**Overview**
-1. Fork the repo *(tutorial for beginners coming soon)*
-2. Follow the instructions in `_config.yml` to enter your organization's info
-3. Create DonorBox and Stripe accounts (for online donations)
-4. Create TinyLetter account (for email capture)
-5. Enter DonorBox and TinyLetter credentials in `_config.yml`
-6. Publish *(tutorial for beginners coming soon)*
+### Usage  
+**Overview**  
+1. Fork the repo *(tutorial for beginners coming soon)*  
+2. Follow the instructions in `_config.yml` to enter your organization's info  
+3. Create DonorBox and Stripe accounts (for online donations)  
+4. Create TinyLetter account (for email capture)  
+5. Enter DonorBox and TinyLetter credentials in `_config.yml`  
+6. Publish *(tutorial for beginners coming soon)*  
 
 **Extras**  
 If you know a little HTML/CSS, the project is built on Bootstrap and offers the full suite of [Bootstrap components](https://smartergiving.github.io/free-nonprofit-starter-website/components-bootstrap.html)
