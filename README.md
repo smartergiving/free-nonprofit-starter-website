@@ -64,6 +64,7 @@ ___
 2. When prompted, click the Organization you just set up
 3. Change the name of the repo by clicking "Settings" in the right-hand menu. Name the repo "Welcome" and click "Rename".
 4. Your site can now be viewed at `[your-organization-name].github.io/welcome`
+
 ___
 **Step 3** Enter your organization's info
 
@@ -80,10 +81,12 @@ ___
 1. Go to [DonorBox](https://donorbox.org/orgs/new) and create an account.  
 2. Be sure to use "Organization Sign Up", which will walk you through creating a [Stripe](https://stripe.com/gallery) account. Stripe handles the actual credit card processing.  
 3. Follow the prompts to add your first campaign.
+
 ___
 **Step 5** Create TinyLetter account  
 
 1. Go to [TinyLetter](http://tinyletter.com/) and create an account by clicking the "Sign Up Free" button  
+
 ___
 **Step 6** Enter DonorBox and TinyLetter credentials  
 
@@ -96,6 +99,7 @@ After you've created a campaign, on your dashboard click "edit" for the campaign
   + **Find your TinyLetter username**  
 Your TinyLetter Username can be found on your Profile page.  
 ![TinyLetter](screenshots/tinyletter.jpg?raw=true "TinyLetter")
+
 ___
 **Step 7** Solicit help  
 
