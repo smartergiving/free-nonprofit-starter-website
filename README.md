@@ -31,7 +31,7 @@ ___
 ___
 ### Notes
 1. This project requires getting your hands a little dirty. If you're looking for a more user-friendly service (albeit paid), we're big fans of [Squarespace](https://squarespace.com).
-2. Be sure you understand the [risks of accepting online donations](https://donorbox.org/nonprofit-blog/on-fraud-prevention/).
+2. Be sure you understand the [risks of accepting online donations](https://donorbox.org/nonprofit-blog/on-fraud-prevention/).  
 ___
 
 ### Getting Started  
@@ -42,7 +42,8 @@ ___
 3. Enter your organization's info in _config.yml
 4. Create DonorBox and Stripe accounts (for online donations)  
 5. Create TinyLetter account (for email capture)  
-6. Enter DonorBox and TinyLetter credentials in `_config.yml`  
+6. Enter DonorBox and TinyLetter credentials in `_config.yml`
+7. Solicit help from supporters and the open source community  
 
 #### Detailed Tutorial
 ___
@@ -93,6 +94,14 @@ After you've created a campaign, on your dashboard click "edit" for the campaign
 Your TinyLetter Username can be found on your Profile page.  
 ![TinyLetter](screenshots/tinyletter.jpg?raw=true "TinyLetter")
 ___
+**Step 7** Solicit help  
+
+1. Now that your site is online, ask for help from your supporters or the open source community.
+2. Places to find help:
+  * [HashtagCharity](https://hashtagcharity.org/charities)  
+  * [Idealist](http://www.idealist.org/add-org)  
+  * [Reddit - NonprofitProjects](https://www.reddit.com/r/nonprofitprojects)  
+___
 #### Extras  
 If you know a little HTML/CSS, the project is built on Bootstrap and offers the full suite of [Bootstrap components](https://smartergiving.github.io/free-nonprofit-starter-website/components-bootstrap.html)
 ___
@@ -104,7 +113,7 @@ ___
 - [ ] Clean up/eliminate js plugins
 - [ ] Move org items from config to _data?
 - [ ] Add CNAME and custom domain instructions
-- [ ] Add links to volunteer matchmaking services (e.g. HashtagCharity)
+- [x] Add links to volunteer matchmaking services (e.g. HashtagCharity)
 
 ### Future
 - [ ] Google Analytics?
