@@ -74,7 +74,8 @@ ___
 **Step 4** Create DonorBox account
 
 1. Go to [DonorBox](https://donorbox.org/orgs/new) and create an account.  
-2. Be sure to use "Organization Sign Up", which will walk you through creating a [Stripe](https://stripe.com/gallery) account. Stripe handles the actual credit card processing.
+2. Be sure to use "Organization Sign Up", which will walk you through creating a [Stripe](https://stripe.com/gallery) account. Stripe handles the actual credit card processing.  
+3. Follow the prompts to add your first campaign.
 ___
 **Step 5** Create TinyLetter account  
 
@@ -98,22 +99,18 @@ ___
 
 
 ### TODOs
-- [ ] Tutorial
-  - [x] Screenshot
-  - [x] Link to components page
-  - [ ] Links to volunteer matchmaking services (e.g. HashtagCharity)
+- [ ] Simplify tutorial
 - [ ] Refactor css/sass
 - [ ] Clean up/eliminate js plugins
-- [x] Wire up mailchimp
 - [ ] Move org items from config to _data?
-- [ ] Add CNAME
-- [x] Add full credits/licenses
+- [ ] Add CNAME and custom domain instructions
+- [ ] Add links to volunteer matchmaking services (e.g. HashtagCharity)
 
 ### Future
 - [ ] Google Analytics?
 - [ ] Robots meta as option?
 - [ ] Ability to handle fiscal sponsorship
-- [x] Switch from Mailchimp to TinyLetter as default?
+- [ ] Add Mailchimp instructions and toggle ability
 - [ ] Troubleshooting tips
 
 ___
