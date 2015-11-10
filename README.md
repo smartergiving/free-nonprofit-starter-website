@@ -31,7 +31,8 @@ ___
 ___
 ### Notes
 1. This project requires getting your hands a little dirty. If you're looking for a more user-friendly service (albeit paid), we're big fans of [Squarespace](https://squarespace.com).
-2. Be sure you understand the [risks of accepting online donations](https://donorbox.org/nonprofit-blog/on-fraud-prevention/).  
+2. Be sure you understand the [risks of accepting online donations](https://donorbox.org/nonprofit-blog/on-fraud-prevention/). 
+
 ___
 
 ### Getting Started  
@@ -47,13 +48,15 @@ ___
 
 #### Detailed Tutorial
 ___
-**Step 1** Create Github accounts
-1. Click the green "SignUp" button at the top of this page
-2. Enter your signup information as instructed and click "Create an account"
-3. On the second page ("Choose your Plan"), check the box that says "Help me set up an organization"
+**Step 1** Create Github accounts  
 
-  ![Screenshot](screenshots/signup.jpg?raw=true "Free Nonprofit Starter Template Screenshot")
-4. Follow the remaining steps. Don't forget to confirm your email address.
+1. Click the green "SignUp" button at the top of this page  
+2. Enter your signup information as instructed and click "Create an account"  
+3. On the second page ("Choose your Plan"), check the box that says "Help me set up an organization"  
+
+  ![Screenshot](screenshots/signup.jpg?raw=true "Free Nonprofit Starter Template Screenshot")  
+4. Follow the remaining steps. Don't forget to confirm your email address.  
+
 ___
 **Step 2** Fork the repo  
 
@@ -101,6 +104,7 @@ ___
   * [HashtagCharity](https://hashtagcharity.org/charities)  
   * [Idealist](http://www.idealist.org/add-org)  
   * [Reddit - NonprofitProjects](https://www.reddit.com/r/nonprofitprojects)  
+
 ___
 #### Extras  
 If you know a little HTML/CSS, the project is built on Bootstrap and offers the full suite of [Bootstrap components](https://smartergiving.github.io/free-nonprofit-starter-website/components-bootstrap.html)
