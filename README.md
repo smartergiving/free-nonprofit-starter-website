@@ -118,7 +118,7 @@ ___
 ### TODOs
 - [ ] Simplify tutorial
 - [ ] Refactor css/sass
-- [ ] Clean up/eliminate js plugins
+- [x] Clean up/eliminate js plugins
 - [ ] Move org items from config to _data?
 - [ ] Add CNAME and custom domain instructions
 - [x] Add links to volunteer matchmaking services (e.g. HashtagCharity)

@@ -1,24 +1,28 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Do not remove the triple dashes
 ---
 @charset "utf-8";
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-//@import "somefile";
+//
+// Import partials from `_sass` folder
+//
+@import "styles-3";
 
+//
 // Insert custom css below this line
+//
 $primary-color: #2a435c;
 $secondary-color: #dd9d71;
 $medium-blue: #3a5d7f;
 .disabled-link {
-  pointer-events:none;
+  pointer-events: none;
 }
 .logo-title:hover {
   text-decoration: none;
 }
 .promo .title {
   font-size: 65px;
-  color: #2a435c;
+  color: $primary-color;
   margin-top: 0;
 }
 .btns {
@@ -36,7 +40,7 @@ $medium-blue: #3a5d7f;
   color: #ddd !important;
 }
 .orange {
-  color: #dd9d71 !important;
+  color: $secondary-color !important;
 }
 .promo .social-icons a {
     display: inline-block;

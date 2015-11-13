@@ -44,7 +44,7 @@ kramdown:
   input: GFM
 
 sass:
-    sass_dir: _sass
+    sass_dir: assets/_sass
     style: compressed
 
 #Features under development
