@@ -117,7 +117,7 @@ ___
 
 ### TODOs
 - [ ] Simplify tutorial
-- [ ] Refactor css/sass
+- [x] Refactor css/sass
 - [x] Clean up/eliminate js plugins
 - [ ] Move org items from config to _data?
 - [ ] Add CNAME and custom domain instructions

@@ -4,16 +4,36 @@
 @charset "utf-8";
 
 //
+// Set theme colors
+//
+
+{% if site.theme == "one" %}
+  $color: #17baef;
+  $color-2: #eebf3f;
+{% elsif site.theme == "two" %}
+  $color: #b4ca65;
+  $color-2: #dd7c4f;
+{% elsif site.theme == "three" %}
+  $color: #6690b9;
+  $color-2: #f46fa3;
+{% elsif site.theme == "four" %}
+  $color: #50c8c9;
+  $color-2: #ffbe57;
+{% else %}
+  $color: #6690b9;
+  $color-2: #dd9d71;
+{% endif %}
+
+//
 // Import partials from `_sass` folder
 //
-@import "styles-3";
+
+@import "default";
 
 //
 // Insert custom css below this line
 //
-$primary-color: #2a435c;
-$secondary-color: #dd9d71;
-$medium-blue: #3a5d7f;
+
 .disabled-link {
   pointer-events: none;
 }
@@ -22,7 +42,7 @@ $medium-blue: #3a5d7f;
 }
 .promo .title {
   font-size: 65px;
-  color: $primary-color;
+  color: $color;
   margin-top: 0;
 }
 .btns {
@@ -39,12 +59,12 @@ $medium-blue: #3a5d7f;
   margin-top: 0;
   color: #ddd !important;
 }
-.orange {
-  color: $secondary-color !important;
+.highlight {
+  color: $color-2 !important;
 }
 .promo .social-icons a {
     display: inline-block;
-    background: $medium-blue;
+    background: darken($color, 20%);
     color: #fff;
     width: 48px;
     height: 48px;
@@ -65,28 +85,28 @@ $medium-blue: #3a5d7f;
     background-color: transparent;
     border-radius: 5px;
     &.btn-outline-primary {
-      border: 2px solid $primary-color;
-      color: $primary-color;
+      border: 2px solid $color;
+      color: $color;
     }
     &.btn-outline-secondary {
-      border: 2px solid $secondary-color;
-      color: $secondary-color;
+      border: 2px solid $color-2;
+      color: $color-2;
     }
-    &.btn-outline-medium-blue {
-      border: 2px solid $medium-blue;
-      color: $medium-blue;
+    &.btn-outline-medium {
+      border: 2px solid darken($color, 15%);
+      color: darken($color, 15%);
     }
 }
 .btn-outline:hover {
     color: #fff !important;
     &.btn-outline-primary {
-      background-color: $primary-color;
+      background-color: $color;
     }
     &.btn-outline-secondary {
-      background-color: $secondary-color;
+      background-color: $color-2;
     }
-    &.btn-outline-medium-blue {
-      background-color: $medium-blue;
+    &.btn-outline-medium {
+      background-color: darken($color, 15%);
     }
 }
 .features .form-inline {

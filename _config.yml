@@ -36,6 +36,7 @@ facebook_username: smartergiving
 instagram_username:
 
 # *** DO NOT CHANGE ANYTHING BELOW THIS LINE ***
+
 # Unless you know what you're doing, no need to change anything below
 # Build settings
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -46,6 +47,10 @@ kramdown:
 sass:
     sass_dir: assets/_sass
     style: compressed
+
+#Choose color scheme
+#Options are: one, two, three, four, or default. Options one through four follow the color schemes at http://themes.3rdwavemedia.com/website-templates/devaid-free-bootstrap-theme-developers/
+theme: default
 
 #Features under development
 #These are not yet fully supported, but should give you a head start if you know what you're doing
