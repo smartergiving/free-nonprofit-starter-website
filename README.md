@@ -125,7 +125,7 @@ ___
 
 ### Future
 - [ ] Google Analytics?
-- [ ] Robots meta as option?
+- [x] Robots meta as option?
 - [ ] Ability to handle fiscal sponsorship
 - [ ] Add Mailchimp instructions and toggle ability
 - [ ] Troubleshooting tips

@@ -30,10 +30,13 @@ org_phone: > # Enter phone on next line
 donorbox_campaign_name: free-template-demo
 tinyletter_username: interestingnonprofits
 
-#social media
+#Social media
 twitter_username: smartergiving
 facebook_username: smartergiving
 instagram_username:
+
+#Changing this next setting to 'true' will allow your site to be indexed by search engines (like Google).
+publish: false
 
 # *** DO NOT CHANGE ANYTHING BELOW THIS LINE ***
 
