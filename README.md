@@ -30,8 +30,8 @@ ___
 
 ___
 ### Notes
-1. This project requires getting your hands a little dirty. If you're looking for a more user-friendly service (albeit paid), we're big fans of [Squarespace](https://squarespace.com).
-2. Be sure you understand the [risks of accepting online donations](https://donorbox.org/nonprofit-blog/on-fraud-prevention/). 
+1. This project requires rolling up your sleeves and getting your hands a little dirty. If you're looking for a more user-friendly service (albeit paid), we're big fans of [Squarespace](https://squarespace.com).
+2. Be sure you understand the [risks of accepting online donations](https://donorbox.org/nonprofit-blog/on-fraud-prevention/).  
 
 ___
 
@@ -110,6 +110,11 @@ ___
   * [Reddit - NonprofitProjects](https://www.reddit.com/r/nonprofitprojects)  
 
 ___
+#### Themes
+Select an alternative color scheme by changing the `theme:` option in `_config.yml`.  
+
+![Alternative Themes](screenshots/themes.png?raw=true "Alternative Themes")  
+___
 #### Extras  
 If you know a little HTML/CSS, the project is built on Bootstrap and offers the full suite of [Bootstrap components](https://smartergiving.github.io/free-nonprofit-starter-website/components-bootstrap.html)
 ___
@@ -117,18 +122,13 @@ ___
 
 ### TODOs
 - [ ] Simplify tutorial
-- [x] Refactor css/sass
-- [x] Clean up/eliminate js plugins
-- [ ] Move org items from config to _data?
 - [ ] Add CNAME and custom domain instructions
-- [x] Add links to volunteer matchmaking services (e.g. HashtagCharity)
+- [ ] Troubleshooting tips
 
 ### Future
-- [ ] Google Analytics?
-- [x] Robots meta as option?
-- [ ] Ability to handle fiscal sponsorship
-- [ ] Add Mailchimp instructions and toggle ability
-- [ ] Troubleshooting tips
+- [ ] Google Analytics
+- [ ] Mailchimp
+- [ ] Paypal
 
 ___
 

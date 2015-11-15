@@ -153,12 +153,14 @@ layout: default
       <div class="info">
         <p><strong>Become a donor today.</strong><br>As a small grassroots organization, know that every dollar will have an immense impact on our ability to continue working towards our mission.</p>
         {% if site.donorbox_campaign_name %}
-        <div class="donorbox text-center">
-          <iframe src="https://donorbox.org/embed/{{ site.donorbox_campaign_name }}" height="600px" width="100%" style="max-width:500px; min-width:310px" seamless="seamless" name="donorbox" frameborder="0" scrolling="no"></iframe>
-        </div>
-        {% if site.501c3 %}
-        <p>Contributions are tax deductible to the extent permitted by law.<br>{{ site.org_name }} is a 501(c)(3) organization.</p>
-        {% endif %}
+          <div class="donorbox text-center">
+            <iframe src="https://donorbox.org/embed/{{ site.donorbox_campaign_name }}" height="600px" width="100%" style="max-width:500px; min-width:310px" seamless="seamless" name="donorbox" frameborder="0" scrolling="no"></iframe>
+          </div>
+          {% if site.501c3 == true %}
+            <p>Contributions are tax deductible to the extent permitted by law.<br>{{ site.org_name }} is a 501(c)(3) organization.</p>
+          {% elsif site.fiscal_sponsor_name %}
+            <p>{{ site.org_name }} is fiscally sponsored by {{ site.fiscal_sponsor_name }}, a 501 (c)(3) tax exempt non-profit organization.</p>
+          {% endif %}
         {% else %}
         <div class="donorbox text-center">
         </div>
@@ -207,13 +209,13 @@ layout: default
         <h4 class="sub-title">Get Connected</h4>
         <ul class="social-icons list-inline">
         {% if site.twitter_username %}
-        <li><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://twitter.com/{{ site.org_twitter_username }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
         {% endif %}
         {% if site.facebook_username %}
-        <li><a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://www.facebook.com/{{ site.org_facebook_username }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
         {% endif %}
         {% if site.instagram_username %}
-        <li><a href="http://instagram.com/{{ site.instagram_username }}"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="http://instagram.com/{{ site.org_instagram_username }}"><i class="fa fa-instagram"></i></a></li>
         {% endif %}
         {% if site.org_general_email_inbox %}
         <li class="last"><a href="mailto: {{ site.org_general_email_inbox }}"><i class="fa fa-envelope"></i></a></li>
