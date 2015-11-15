@@ -46,7 +46,7 @@ tinyletter_username: interestingnonprofits
 publish: false
 
 #THEME
-#Select one of the four color schemes (default, one, two, three, or four)
+#Select one of the five color schemes (default, one, two, three, or four)
 theme: default
 
 # *** DO NOT CHANGE ANYTHING BELOW THIS LINE ***
