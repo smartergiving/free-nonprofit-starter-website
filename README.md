@@ -1,11 +1,12 @@
 
 ## A Free Website Template for Nonprofits  
-We're huge fans of [Github Pages](https://pages.github.com/) and wanted to help nonprofits take advantage of this powerful (and free!) tool. With about an hours worth of work you'll have a published website with the ability to accept online donations.
+We're huge fans of [Github Pages](https://pages.github.com/) and wanted to help nonprofits take advantage of this powerful tool! With about an hours worth of work you'll have a live, no-cost website with the ability to accept online donations.
 
 But most importantly, by hosting your site on Github you'll allow volunteers to easily contribute to ongoing development of your site. Welcome to the world of open source!
 
 ___
-*Made with :heart: from the folks at [SmarterGiving](https://smartergiving.org)*
+#### No Coding Skills Required  
+If you're the type of person that can set up email on your smartphone, you likely have all the skills needed to take advantage of this template :smile:
 ___
 
 #### Key Features  
@@ -22,20 +23,12 @@ ___
 1. **Open Source**  
     Your site and its code will be hosted on Github. This makes it easy for any developer, designer, or copywriter to help customize your site.  
 
-2. **Secure**   
-    Accepting online donations shouldn't be taken lightly. The template integrates third party services to handle any and all secure bits.  
-
-3. **No Vendor Lock-In**  
-    The third party services we've chosen (for payments and email capture) allow you to transfer your data should you opt for an alternative solution down the road.
-
-___
-### Notes
-1. This project requires rolling up your sleeves and getting your hands a little dirty. If you're looking for a more user-friendly service (albeit paid), we're big fans of [Squarespace](https://squarespace.com).
-2. Be sure you understand the [risks of accepting online donations](https://donorbox.org/nonprofit-blog/on-fraud-prevention/).  
-
+2. **Payments by Stripe**   
+    [Stripe](https://stripe.com/gallery) is used by many [donor management tools](https://stripe.com/docs/integrations#fundraising). When you require a more robust solution than DonorBox offers, switching is easy.  
 ___
 
 ### Getting Started  
+This project requires rolling up your sleeves a bit. If you're looking for a more user-friendly service (albeit paid), we're big fans of [Squarespace](https://squarespace.com).
 #### Overview  
 ___
 1. Create Github accounts
@@ -50,28 +43,37 @@ ___
 ___
 **Step 1** Create Github accounts  
 
-1. Click the green "SignUp" button at the top of this page  
-2. Enter your signup information as instructed and click "Create an account"  
-3. On the second page ("Choose your Plan"), check the box that says "Help me set up an organization"  
+1. Get started by clicking the green "SignUp" button at the top of this page  
 
-  ![Screenshot](screenshots/signup.jpg?raw=true "Free Nonprofit Starter Template Screenshot")  
+2. Enter your signup information as instructed and click "Create an account"  
+
+3. On the second page ("Choose your Plan"), check the box that says "Help me set up an organization"  ![Screenshot](screenshots/signup.jpg?raw=true "Free Nonprofit Starter Template Screenshot")  
 4. Follow the remaining steps. Don't forget to confirm your email address.  
 
 ___
 **Step 2** Fork the repo  
 
 1. Click the "Fork" button at the top of this page
-2. When prompted, click the Organization you just set up
+
+2. When prompted, click the Organization you just set up  
+
 3. Change the name of the repo by clicking "Settings" in the right-hand menu. Name the repo "Welcome" and click "Rename".
+![Settings](screenshots/settings.jpg?raw=true "Free Nonprofit Starter Template Screenshot")
 4. Your site can now be viewed at `[your-organization-name].github.io/welcome`
 
 ___
 **Step 3** Enter your organization's info
 
-1. Click the `_config.yml` file
-2. Click the edit button
-3. Enter your information
+1. Click the `_config.yml` file ![SignUp](screenshots/config.jpg?raw=true "Create an Account")  
+2. Click the edit button  
+![Edit](screenshots/edit.jpg?raw=true "Edit")  
+
+3. Replace the example text with your organization's information
+![Enter Information](screenshots/enter_info.jpg?raw=true "Enter Information")
+
 4. When finished, "commit" the changes by entering a commit message (e.g. "Update config") in the "Commit changes" box at the bottom of the page. Leave the other options as they are, and click the "Commit changes" button.
+![Commit](screenshots/commit.jpg?raw=true "Commit")
+
 5. Preview your site at ` [your-organization-name].github.io/welcome`.
 6. Continue to adjust `_config.yml` as needed.
 
@@ -79,8 +81,11 @@ ___
 **Step 4** Create DonorBox account
 
 1. Go to [DonorBox](https://donorbox.org/orgs/new) and create an account.  
-2. Be sure to use "Organization Sign Up", which will walk you through creating a [Stripe](https://stripe.com/gallery) account. Stripe handles the actual credit card processing.  
+2. We suggest using the "Organization Sign Up" option, which will walk you through creating a [Stripe](https://stripe.com/gallery) account. Stripe handles the actual credit card processing.
+![DonorBox SignUp](screenshots/donorbox_signup.jpg?raw=true "DonorBox SignUp")
+
 3. Follow the prompts to add your first campaign.
+4. **Important**: Be sure you fully understand the [risks of accepting online donations](https://donorbox.org/nonprofit-blog/on-fraud-prevention/).  
 
 ___
 **Step 5** Create TinyLetter account  
@@ -114,6 +119,7 @@ ___
 Select an alternative color scheme by changing the `theme:` option in `_config.yml`.  
 
 ![Alternative Themes](screenshots/themes.png?raw=true "Alternative Themes")  
+
 ___
 #### Extras  
 If you know a little HTML/CSS, the project is built on Bootstrap and offers the full suite of [Bootstrap components](https://smartergiving.github.io/free-nonprofit-starter-website/components-bootstrap.html)
@@ -121,7 +127,6 @@ ___
 
 
 ### TODOs
-- [ ] Simplify tutorial
 - [ ] Add CNAME and custom domain instructions
 - [ ] Troubleshooting tips
 
