@@ -1,12 +1,13 @@
 
-## A Free Website Template for Nonprofits  
-We're huge fans of [Github Pages](https://pages.github.com/) and wanted to help nonprofits take advantage of this powerful tool! With about an hours worth of work you'll have a live, no-cost website with the ability to accept online donations.
+## A Free Website Template for Nonprofits
+We want to help introduce the nonprofit community to the powerful world of open source development. Just follow the step-by-step instructions below, and in less than an hour your grassroots nonprofit will have a live, no-cost website complete with online donation capabilities.
 
-But most importantly, by hosting your site on Github you'll allow volunteers to easily contribute to ongoing development of your site. Welcome to the world of open source!
+But most importantly, by hosting your site and its code on Github you'll allow volunteers to easily contribute to ongoing development of your site.  
 
 ___
 #### No Coding Skills Required  
 If you're the type of person that can set up email on your smartphone, you likely have all the skills needed to take advantage of this template :smile:
+
 ___
 
 #### Key Features  
@@ -21,23 +22,26 @@ ___
 ___
 #### Benefits  
 1. **Open Source**  
-    Your site and its code will be hosted on Github. This makes it easy for any developer, designer, or copywriter to help customize your site.  
+    Your site and its code will be hosted on Github. This makes it easy for any developer, designer, or copywriter to help customize your site.
 
-2. **Payments by Stripe**   
-    [Stripe](https://stripe.com/gallery) is used by many [donor management tools](https://stripe.com/docs/integrations#fundraising). When you require a more robust solution than DonorBox offers, switching is easy.  
+2. **Totally Free**  
+    No upfront nor ongoing costs.    
+
+3. **Payments by Stripe**   
+    [Stripe](https://stripe.com/gallery) is used by many [tools for nonprofits](https://stripe.com/docs/integrations#fundraising). When you require a more robust fundraising solution than DonorBox offers, switching is easy.  
 ___
 
 ### Getting Started  
-This project requires rolling up your sleeves a bit. If you're looking for a more user-friendly service (albeit paid), we're big fans of [Squarespace](https://squarespace.com).
+*Note:* This project does require rolling up your sleeves a bit. If you're looking for a more user-friendly service (albeit paid), we're big fans of [Squarespace](https://squarespace.com).
 #### Overview  
 ___
 1. Create Github accounts
 2. Fork the repo
-3. Enter your organization's info in _config.yml
+3. Enter your organization's info in `_config.yml`
 4. Create DonorBox and Stripe accounts (for online donations)  
 5. Create TinyLetter account (for email capture)  
 6. Enter DonorBox and TinyLetter credentials in `_config.yml`
-7. Solicit help from supporters and the open source community  
+7. Suggested next steps  
 
 #### Detailed Tutorial
 ___
@@ -106,13 +110,18 @@ Your TinyLetter Username can be found on your Profile page.
 ![TinyLetter](screenshots/tinyletter.jpg?raw=true "TinyLetter")
 
 ___
-**Step 7** Solicit help  
+**Step 7** Suggested next steps    
 
-1. Now that your site is online, ask for help from your supporters or the open source community.
-2. Places to find help:
-  * [HashtagCharity](https://hashtagcharity.org/charities)  
-  * [Idealist](http://www.idealist.org/add-org)  
-  * [Reddit - NonprofitProjects](https://www.reddit.com/r/nonprofitprojects)  
+1. Ask for help from your supporters or the open source community.    
+    a. [HashtagCharity](https://hashtagcharity.org/charities)  
+    b. [Idealist](http://www.idealist.org/add-org)  
+    c. [Reddit (/r/nonprofitprojects)](https://www.reddit.com/r/nonprofitprojects)
+
+2. Continue development on your own  
+    a. [Set up your local machine](http://ramonaharrison.github.io/jekyll/pixyll/technical/git/github/2015/03/09/how-i-built-my-blog/) (follow steps 1 and 2)  
+    b. Download [Github Desktop](https://desktop.github.com/) and [Atom](https://atom.io/) text editor [(tutorial)](https://github.com/jwsy/example-website/tree/master#initial-setup)
+
+3. Need Help? Consider attending one of Github's [workshops](http://patchwork.github.io/) or [online trainings](https://training.github.com/classes/)
 
 ___
 #### Themes
@@ -127,7 +136,8 @@ ___
 
 
 ### TODOs
-- [ ] Add CNAME and custom domain instructions
+- [ ] CNAME and custom domain instructions
+- [ ] Open graph metadata
 - [ ] Troubleshooting tips
 
 ### Future
