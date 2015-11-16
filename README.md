@@ -51,7 +51,7 @@ ___
 
 2. Enter your signup information as instructed and click "Create an account"  
 
-3. On the second page ("Choose your Plan"), check the box that says "Help me set up an organization"  ![Screenshot](screenshots/signup.jpg?raw=true "Free Nonprofit Starter Template Screenshot")  
+3. On the second page ("Choose your Plan"), check the box that says "Help me set up an organization"   ![Screenshot](screenshots/signup.jpg?raw=true "Free Nonprofit Starter Template Screenshot")  
 4. Follow the remaining steps. Don't forget to confirm your email address.  
 
 ___
@@ -61,21 +61,22 @@ ___
 
 2. When prompted, click the Organization you just set up  
 
-3. Change the name of the repo by clicking "Settings" in the right-hand menu. Name the repo "Welcome" and click "Rename".
+3. Change the name of the repo by clicking "Settings" in the right-hand menu. Name the repo "Welcome" and click "Rename".  
 ![Settings](screenshots/settings.jpg?raw=true "Free Nonprofit Starter Template Screenshot")
 4. Your site can now be viewed at `[your-organization-name].github.io/welcome`
 
 ___
 **Step 3** Enter your organization's info
 
-1. Click the `_config.yml` file ![SignUp](screenshots/config.jpg?raw=true "Create an Account")  
+1. Click the `_config.yml` file  
+![SignUp](screenshots/config.jpg?raw=true "Create an Account")  
 2. Click the edit button  
 ![Edit](screenshots/edit.jpg?raw=true "Edit")  
 
-3. Replace the example text with your organization's information
+3. Replace the example text with your organization's information  
 ![Enter Information](screenshots/enter_info.jpg?raw=true "Enter Information")
 
-4. When finished, "commit" the changes by entering a commit message (e.g. "Update config") in the "Commit changes" box at the bottom of the page. Leave the other options as they are, and click the "Commit changes" button.
+4. When finished, "commit" the changes by entering a commit message (e.g. "Update config") in the "Commit changes" box at the bottom of the page. Leave the other options as they are, and click the "Commit changes" button.  
 ![Commit](screenshots/commit.jpg?raw=true "Commit")
 
 5. Preview your site at ` [your-organization-name].github.io/welcome`.
@@ -85,7 +86,7 @@ ___
 **Step 4** Create DonorBox account
 
 1. Go to [DonorBox](https://donorbox.org/orgs/new) and create an account.  
-2. We suggest using the "Organization Sign Up" option, which will walk you through creating a [Stripe](https://stripe.com/gallery) account. Stripe handles the actual credit card processing.
+2. We suggest using the "Organization Sign Up" option, which will walk you through creating a [Stripe](https://stripe.com/gallery) account. Stripe handles the actual credit card processing.  
 ![DonorBox SignUp](screenshots/donorbox_signup.jpg?raw=true "DonorBox SignUp")
 
 3. Follow the prompts to add your first campaign.
