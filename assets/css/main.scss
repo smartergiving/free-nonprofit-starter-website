@@ -1,0 +1,114 @@
+---
+# Do not remove the triple dashes
+---
+@charset "utf-8";
+
+//
+// Set theme colors
+//
+
+{% if site.theme == "one" %}
+  $color: #17baef;
+  $color-2: #eebf3f;
+{% elsif site.theme == "two" %}
+  $color: #b4ca65;
+  $color-2: #dd7c4f;
+{% elsif site.theme == "three" %}
+  $color: #6690b9;
+  $color-2: #f46fa3;
+{% elsif site.theme == "four" %}
+  $color: #50c8c9;
+  $color-2: #ffbe57;
+{% else %}
+  $color: #6690b9;
+  $color-2: #dd9d71;
+{% endif %}
+
+//
+// Import partials from `_sass` folder
+//
+
+@import "default";
+
+//
+// Insert custom css below this line
+//
+
+.disabled-link {
+  pointer-events: none;
+}
+.logo-title:hover {
+  text-decoration: none;
+}
+.promo .title {
+  font-size: 65px;
+  color: $color;
+  margin-top: 0;
+}
+.btns {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.promo .meta {
+    margin-top: 30px;
+}
+.donorbox {
+  margin-top: 60px;
+}
+.join-us-intro {
+  margin-top: 0;
+  color: #ddd !important;
+}
+.highlight {
+  color: $color-2 !important;
+}
+.promo .social-icons a {
+    display: inline-block;
+    background: darken($color, 20%);
+    color: #fff;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    padding-top: 12px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    margin-right: 8px;
+    float: left;
+}
+.btn-outline, .btn-outline:link, .btn-outline:visited {
+    background-color: transparent;
+    border-radius: 5px;
+    &.btn-outline-primary {
+      border: 2px solid $color;
+      color: $color;
+    }
+    &.btn-outline-secondary {
+      border: 2px solid $color-2;
+      color: $color-2;
+    }
+    &.btn-outline-medium {
+      border: 2px solid darken($color, 15%);
+      color: darken($color, 15%);
+    }
+}
+.btn-outline:hover {
+    color: #fff !important;
+    &.btn-outline-primary {
+      background-color: $color;
+    }
+    &.btn-outline-secondary {
+      background-color: $color-2;
+    }
+    &.btn-outline-medium {
+      background-color: darken($color, 15%);
+    }
+}
+.features .form-inline {
+  margin-top: 10px;
+}
