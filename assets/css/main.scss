@@ -19,6 +19,10 @@
 {% elsif site.theme == "four" %}
   $color: #50c8c9;
   $color-2: #ffbe57;
+{% elsif site.theme == "five" %}
+  $color: #161616;
+  $color-2: #f00000;
+  $bgcolor: #5757e7;
 {% else %}
   $color: #6690b9;
   $color-2: #dd9d71;
@@ -57,15 +61,15 @@
 }
 .join-us-intro {
   margin-top: 0;
-  color: #ddd !important;
+  color: $color-2 !important;
 }
 .highlight {
   color: $color-2 !important;
 }
 .promo .social-icons a {
     display: inline-block;
-    background: darken($color, 20%);
-    color: #fff;
+    background: darken($bgcolor, 20%);
+    color: $color;
     width: 48px;
     height: 48px;
     text-align: center;
@@ -98,9 +102,9 @@
     }
 }
 .btn-outline:hover {
-    color: #fff !important;
+    color: $color-2 !important;
     &.btn-outline-primary {
-      background-color: $color;
+      background-color: $bgcolor;
     }
     &.btn-outline-secondary {
       background-color: $color-2;
@@ -112,3 +116,4 @@
 .features .form-inline {
   margin-top: 10px;
 }
+
