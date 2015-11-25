@@ -1,0 +1,26 @@
+#!/bin/bash
+if [ $# -ne 1 ]; then
+        # Print usage
+        echo 'wrong!!! bad operator!!!
+        usage:
+        ./newpost $FILENAME_SAFE_SUBJECT
+        e.g.
+        ./newpost my-subject-without-spaces
+        '
+            exit 1
+fi
+NEWPOST=_posts/`date -I`-$1.md
+touch $NEWPOST
+echo "
+you can now use your favorite editor to edit $NEWPOST
+"
+echo "
+---
+title: "$1"
+layout: post
+og_image_url: ""
+description: ""
+tags: [bsfs, blog]
+---
+" >> $NEWPOST
+vim $NEWPOST
