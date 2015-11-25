@@ -2,23 +2,23 @@
 layout: default
 ---
 
-<div class="posts container">
+<div class="posts">
   <div class="content full-bleed" id="recent-posts">
   {% for post in site.posts limit:50 %}<a
     href="{{ post.url }}" class="post-excerpt{% if post.photo_url %} photo{% endif %}">
       <div class="padded-content">
-        <div class="title">{{ post.title }}</div>
+        <div class="title"><h5>{{ post.title }}</h5></div>
       {% if post.photo_url %}
         <div class="image" style="background-image:url('{{ post.photo_url }}')"></div>
       {% else %}
-        <!-- <div class="title">{{ post.title }}</div> -->
+         <!--<div class="title">{{ post.title }}</div> -->
         <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
           {{ post.date | date: "%b %Y" }}
         </info>
         {% if post.description %}
-        <span class="body">{{ post.description | markdownify }}</span>
+        <p><span class="body "> &nbsp; &nbsp; {{ post.description | strip_html }}</span></p>
         {% else %}
-        <span class="body">{{ post.excerpt | strip_html }}</span>
+        <p><span class="body "> &nbsp; &nbsp; {{ post.excerpt | strip_html }}</span></p>
         {% endif %}
       {% endif %}<!-- post.photo_url -->
       </div>
