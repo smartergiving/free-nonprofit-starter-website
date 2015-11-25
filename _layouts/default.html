@@ -7,11 +7,17 @@
 
   <body data-spy="scroll">
 
+  {% include facebook.html %}
+
   {% include header.html %}
 
   {% include promo.html %}
 
     {{ content }}
+
+  {% include facebook-like.html %}
+
+  {% include facebook-comment.html %}
 
     {% include contact.html %}
 
