@@ -10,19 +10,33 @@
 {% if site.theme == "one" %}
   $color: #17baef;
   $color-2: #eebf3f;
+  $bgcolor: #000;
+  $bgcolor-2: #333;
 {% elsif site.theme == "two" %}
   $color: #b4ca65;
   $color-2: #dd7c4f;
+  $bgcolor: #000;
+  $bgcolor-2: #333;
 {% elsif site.theme == "three" %}
   $color: #6690b9;
   $color-2: #f46fa3;
+  $bgcolor: #000;
+  $bgcolor-2: #333;
 {% elsif site.theme == "four" %}
   $color: #50c8c9;
   $color-2: #ffbe57;
+  $bgcolor: #000;
+  $bgcolor-2: #333;
 {% elsif site.theme == "five" %}
   $color: #161616;
   $color-2: #f00000;
   $bgcolor: #5757e7;
+  $bgcolor-2: #333;
+{% elsif site.theme == "six" %}
+  $color: #ddd;
+  $color-2: #ccc;
+  $bgcolor: #000;
+  $bgcolor-2: #333;
 {% else %}
   $color: #6690b9;
   $color-2: #dd9d71;
@@ -90,15 +104,15 @@
     border-radius: 5px;
     &.btn-outline-primary {
       border: 2px solid $color;
-      color: $color;
+      color: $color-2;
     }
     &.btn-outline-secondary {
       border: 2px solid $color-2;
       color: $color-2;
     }
     &.btn-outline-medium {
-      border: 2px solid darken($color, 15%);
-      color: darken($color, 15%);
+      border: 2px solid darken($color-2, 15%);
+      color: darken($color-2, 15%);
     }
 }
 .btn-outline:hover {
