@@ -1,6 +1,6 @@
 ---
 published: true
-title: My New Post
+title: My Second Post
 layout: post
 description: this is my description
 tags: 
