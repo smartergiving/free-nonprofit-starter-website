@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: My New Post
 layout: post
 description: this is my description
