@@ -1,0 +1,60 @@
+---
+layout: page
+title: Archive
+---
+<img src="/res/archive.png" width="64" height="64" align="right" alt="archive">
+
+<form action="http://www.google.com/cse" id="cse-search-box">
+  <p>
+    <input type="hidden" name="cx" value="006553118601910168903:-x3qflztwei" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" id="cse-search-field" placeholder="Search BSFS' stuff" />
+    <!--input type="submit" name="sa" value="Search" id="cse-search-button" /-->
+  </p>
+</form>
+<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
+<script type="text/javascript">
+var search_field = document.getElementById('cse-search-field');
+search_field.style.background = null;
+if (window.rsmsHostIsIOS) {
+  search_field.type = 'search';
+} else {
+  search_field.select();
+  search_field.focus();
+}
+search_field.addEventListener('blur', function (ev) {
+  this.style.background = null;
+});
+
+</script>
+<style type="text/css">
+#cse-search-field {
+  width: 70%;
+  font-size: inherit;
+  font-family: helvetica, sans-serif;
+  padding:0.5em 1em;
+}
+#cse-search-field {
+  border:2px solid #ddd;
+  border-radius: 90px;
+}
+#cse-search-field:focus {
+  outline:none;
+  border-color: #2299ff;
+}
+html.ios #cse-search-field {
+  padding:0.5em 1em;
+  -webkit-appearance: none;
+}
+html.ios #cse-search-button {
+  display: none;
+}
+</style>
+
+<ul>
+{% for post in site.posts %}
+  <li>
+    {{ post.date | date: "%b %d, %Y"  }} &mdash; <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>

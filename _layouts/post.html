@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
+  {% include head.html %}
+
+  <body data-spy="scroll">
+
+  {% include facebook.html %}
+
+  {% include header.html %}
+
+  {% include post-promo.html %}
+
+  <div class= container>
+
+
+  {% unless page.title_hidden %}
+    <h1>{{ page.title }}</h1>
+    <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
+      {{ page.date | date: "%b %d, %Y" }}
+    </info>
+    {% endunless %}
+    <div class="body">{{ content }}</div>
+    <!-- <div class="breaker"></div> -->
+    <div class="breaker"></div>
+    <!-- <info class="after">
+<div class="fb-like" data-href="http://rsms.me{{ page.url }}" data-send="false" data-width="550" data-show-faces="false" data-font="arial"></div>
+    </info> -->
+
+
+    {% include facebook-like.html %}
+    {% if page.comments %}
+    <hr/>
+    <h4>Comments</h4>
+    <div class="fb-comments" data-href=http://bigspringfilm.github.io{{ page.url }} data-num-posts="4" data-width="706"></div>
+    {% endif %}
+
+  </div>
+
+    {% include contact.html %}
+
+  {% include socialicons.html %}
+
+    {% include footer.html %}
+
+    {% include scripts.html %}
+
+  </body>
+
+</html>

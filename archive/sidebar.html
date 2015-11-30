@@ -1,0 +1,67 @@
+---
+layout: default
+title: Archive (sidebar)
+---
+<style>
+  header, footer, #sidebar { display:none !important; }
+  html, body { background-color:black; width:100% !important; }
+  html { zoom:70%; text-shadow: #000 0 1px 1px; }
+  body {  color:#fff; }
+  ul { list-style:none; padding-left:0 !important; }
+  li { margin-left:0 !important; }
+  li > a {
+    display:block;
+    padding:5px 5px 5px 15px;
+    border-top:1px solid #333;
+    font-family:'helvetica neue','helvetica',sans-serif;
+    width:280px;
+  }
+  li > a > span {
+    display:block;
+    padding:0; margin:0;
+    white-space:nowrap; overflow:hidden; text-overflow: ellipsis;
+    width:280px;
+  }
+  li > a:link, li > a:visited { color:#999; }
+  li > a:active, li > a:hover { color:white; }
+  li > a info { display:block; color:#666; }
+  ul.navigation {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+  }
+  ul.navigation li a {
+    border-top:none;
+    border-bottom:1px solid #333;
+    padding:0 5px 0 15px;
+    line-height:44px;
+  }
+  h2 { margin-top:15px; text-align:center; color:white; }
+  a.logo, p.h { display:block; margin:10px 5px 5px 0; text-align:center; }
+  p.h {  }
+</style>
+<script>
+  function openInParent(self) {
+    window.parent.document.location = self.href;
+    return false;
+  }
+</script>
+<a target="_top" href="/" class="logo"><img src="/res/signature-2-inverted-2.png" width="160" height="50" alt="Signature"></a>
+<ul class="navigation">
+  <li><a target="_top" href="/photos/"{% if page.url contains "/photos/" %}class="active"{% endif %} title="A selection of recent photography">Photography</a></li>
+  <li><a target="_top" href="/projects/"{% if page.url contains "/projects/" %}class="active"{% endif %} title="Projects I am or was involved in">Projects</a></li>
+  <li><a target="_top" href="/archive/"{% if page.url contains "/archive/" %}class="active"{% endif %} title="Archived articles">Archive</a></li>
+  <li><a target="_top" href="/about/"{% if page.url contains "/about/" %}class="active"{% endif %}>About me</a></li>
+  <li><a></a></li>
+</ul>
+<p class="h"><b>Recent posts</b></p>
+<ul>
+{% for post in site.posts %}
+  <li class="posts">
+    <a onclick="return openInParent(this)" target="_top" href="{{ post.url }}">
+      <span>{{ post.title }}</span>
+      <info>{{ post.date | date: "%b %d, %Y"  }}</info>
+    </a>
+  </li>
+{% endfor %}
+</ul>

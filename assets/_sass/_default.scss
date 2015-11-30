@@ -7,8 +7,8 @@
 */
 /* Default */
 /* ======= Colors ======= */
-$text-color: #444;
-$text-secondary: #666;
+$text-color: #eee;
+$text-secondary: #ddd;
 $grey: #999;
 $darker-grey: #666;
 $smoky-white: #f5f5f5;
@@ -42,7 +42,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: darken($color, 10%);
+  color: $color;
 }
 .btn,
 a.btn {
@@ -60,38 +60,38 @@ a.btn .fa {
 }
 .btn:focus,
 a.btn:focus {
-  color: #fff;
+  color: $color;
 }
 a.btn-cta-primary,
 .btn-cta-primary {
-  background: darken($color, 30%);
-  border: 1px solid darken($color, 30%);
-  color: #fff;
+  background: $color;
+  border: 1px solid $color;
+  color: $color;
   font-weight: 600;
   text-transform: uppercase;
 }
 a.btn-cta-primary:hover,
 .btn-cta-primary:hover {
-  background: darken($color, 35%);
-  border: 1px solid darken($color, 35%);
-  color: #fff;
+  background: $color;
+  border: 1px solid $color;
+  color: $color;
 }
 a.btn-cta-secondary,
 .btn-cta-secondary {
   background: $color-2;
   border: 1px solid $color-2;
-  color: #fff;
+  color: $color;
   font-weight: 600;
   text-transform: uppercase;
 }
 a.btn-cta-secondary:hover,
 .btn-cta-secondary:hover {
-  background: darken($color-2, 5%);
-  border: 1px solid darken($color-2, 5%);
-  color: #fff;
+  background: $color-2;
+  border: 1px solid $color-2;
+  color: $color;
 }
 .text-highlight {
-  color: darken($color, 30%);
+  color: $color;
 }
 .offset-header {
   padding-top: 90px;
@@ -102,13 +102,13 @@ pre code {
 /* ======= Header ======= */
 .header {
   padding: 10px 0;
-  background: $color;
-  color: #fff;
+  background: $bgcolor;
+  color: $color;
   position: fixed;
   width: 100%;
 }
 .header.navbar-fixed-top {
-  background: #fff;
+  background: $bgcolor-2;
   z-index: 9999;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
@@ -126,14 +126,14 @@ pre code {
   padding-top: 10px;
 }
 .header .logo a {
-  color: #fff;
+  color: $color;
 }
 .header .logo a:hover {
   text-decoration: none;
 }
 .header .main-nav button {
-  background: darken($color, 30%);
-  color: #fff !important;
+  background: $color;
+  color: $color !important;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -147,7 +147,7 @@ pre code {
   outline: none;
 }
 .header .main-nav button .icon-bar {
-  background-color: #fff;
+  background-color: $bgcolor-2;
 }
 .header .main-nav .navbar-collapse {
   padding: 0;
@@ -162,7 +162,7 @@ pre code {
   background: none;
 }
 .header .main-nav .nav .nav-item a {
-  color: darken($color, 20%);
+  color: $color-2;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
@@ -171,7 +171,7 @@ pre code {
   padding: 15px 10px;
 }
 .header .main-nav .nav .nav-item a:hover {
-  color: darken($color, 30%);
+  color: $color;
   background: none;
 }
 .header .main-nav .nav .nav-item a:focus {
@@ -190,13 +190,13 @@ pre code {
 }
 /* ======= Promo Section ======= */
 .promo {
-  background: $color;
-  color: #fff;
+  background: $bgcolor;
+  color: $color;
   padding-top: 150px;
 }
 .promo .title {
   font-size: 98px;
-  color: darken($color, 30%);
+  color: $color;
   margin-top: 0;
 }
 .promo .title .highlight {
@@ -216,19 +216,19 @@ pre code {
 .promo .meta {
   margin-top: 120px;
   margin-bottom: 30px;
-  color: darken($color, 20%);
+  color: $color;
 }
 .promo .meta li {
   margin-right: 15px;
 }
 .promo .meta a {
-  color: darken($color, 20%);
+  color: $color;
 }
 .promo .meta a:hover {
-  color: darken($color, 30%);
+  color: $color;
 }
 .promo .social-media {
-  background: darken($color, 15%);
+  background: $color;
   padding: 10px 0;
   margin: 0 auto;
 }
@@ -243,10 +243,10 @@ pre code {
 /* ======= About Section ======= */
 .about {
   padding: 80px 0;
-  background: #f5f5f5;
+  background: $bgcolor-2;
 }
 .about .title {
-  color: darken($color, 30%);
+  color: $color;
   margin-top: 0;
   margin-bottom: 60px;
 }
@@ -266,54 +266,54 @@ pre code {
 }
 .about .item .icon-holder .fa {
   font-size: 24px;
-  color: darken($color, 30%);
+  color: $color;
 }
 .about .item .content {
   padding-left: 60px;
 }
 .about .item .content .sub-title {
   margin-top: 0;
-  color: darken($color, 30%);
+  color: $color;
   font-size: 18px;
 }
 /* ======= Join Section ======= */
 .join {
   padding: 80px 0;
-  background: $color;
-  color: #fff;
+  background: $bgcolor-2;
+  color: $color;
 }
 .join .title {
-  color: darken($color, 30%);
+  color: $color;
   margin-top: 0;
   margin-bottom: 30px;
 }
 .join a {
-  color: darken($color, 30%);
+  color: $color;
 }
 .join a:hover {
-  color: darken($color, 40%);
+  color: $color;
 }
 .join .feature-list li {
   margin-bottom: 10px;
-  color: darken($color, 30%);
+  color: $color;
 }
 .join .feature-list li .fa {
   margin-right: 5px;
-  color: #fff;
+  color: $color;
 }
 /* ======= Docs Section ======= */
 .docs {
   padding: 80px 0;
-  background: #f5f5f5;
+  background: $bgcolor-2;
 }
 .docs .title {
-  color: darken($color, 30%);
+  color: $color;
   margin-top: 0;
   margin-bottom: 30px;
 }
 .docs .docs-inner {
   max-width: 800px;
-  background: #fff;
+  background: $bgcolor-2;
   padding: 30px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -344,16 +344,16 @@ pre code {
 /* ======= Donate Section ======= */
 .donate {
   padding: 80px 0;
-  background: #f5f5f5;
+  background: $bgcolor-2;
 }
 .donate .title {
   margin-top: 0;
   margin-bottom: 60px;
-  color: darken($color, 30%);
+  color: $color;
 }
 .donate .donate-inner {
   max-width: 800px;
-  background: #fff;
+  background: $bgcolor-2;
   padding: 30px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -384,7 +384,7 @@ pre code {
 }
 .donate .cta-container .speech-bubble {
   background: lighten($color, 40%);
-  color: darken($color, 30%);
+  color: $color;
   padding: 30px;
   margin-bottom: 30px;
   position: relative;
@@ -408,7 +408,7 @@ pre code {
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 10px solid #d6f3fc;
+  border-top: 10px solid $color-2;
 }
 .donate .cta-container .icon-holder {
   margin-bottom: 15px;
@@ -422,15 +422,15 @@ pre code {
 /* ======= Contact Section ======= */
 .contact {
   padding: 80px 0;
-  background: $color;
-  color: #fff;
+  background: $bgcolor;
+  color: $color;
 }
 .contact .contact-inner {
   max-width: 760px;
   margin: 0 auto;
 }
 .contact .title {
-  color: darken($color, 30%);
+  color: $color;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -438,10 +438,10 @@ pre code {
   margin-bottom: 60px;
 }
 .contact a {
-  color: darken($color, 30%);
+  color: $color;
 }
 .contact a:hover {
-  color: darken($color, 40%);
+  color: $color;
 }
 .contact .author-message {
   position: relative;
@@ -466,8 +466,8 @@ pre code {
 }
 .contact .author-message .speech-bubble {
   margin-left: 155px;
-  background: darken($color, 3%);
-  color: darken($color, 30%);
+  background: $color;
+  color: $color;
   padding: 30px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -480,13 +480,13 @@ pre code {
   position: relative;
 }
 .contact .author-message .speech-bubble .sub-title {
-  color: darken($color, 30%);
+  color: $color;
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 30px;
 }
 .contact .author-message .speech-bubble a {
-  color: #fff;
+  color: $color;
 }
 .contact .author-message .speech-bubble:after {
   position: absolute;
@@ -498,19 +498,19 @@ pre code {
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-right: 10px solid darken($color, 3%);
+  border-right: 10px solid $color;
 }
 .contact .author-message .speech-bubble .source {
   margin-top: 30px;
 }
 .contact .author-message .speech-bubble .source a {
-  color: darken($color, 30%);
+  color: $color;
 }
 .contact .author-message .speech-bubble .source .title {
-  color: darken($color, 15%);
+  color: $color;
 }
 .contact .info .sub-title {
-  color: darken($color, 10%);
+  color: $color;
   margin-bottom: 30px;
   margin-top: 0;
 }
@@ -529,7 +529,7 @@ pre code {
 }
 .contact .social-icons a {
   display: inline-block;
-  background: darken($color, 15%);
+  background: $bgcolor;
   width: 48px;
   height: 48px;
   text-align: center;
@@ -546,21 +546,21 @@ pre code {
   float: left;
 }
 .contact .social-icons a:hover {
-  background: darken($color-2, 10%);
+  background: $color-2;
 }
 .contact .social-icons a .fa {
-  color: #fff;
+  color: $color;
 }
 .contact .social-icons a .fa:before {
   font-size: 26px;
   text-align: center;
   padding: 0;
 }
-/* ======= Footer ======= */
+/* ======= Footej ======= */
 .footer {
   padding: 15px 0;
-  background: darken($color, 40%);
-  color: #fff;
+  background: $bgcolor-2;
+  color: $color-2;
 }
 .footer .copyright {
   -webkit-opacity: 0.8;
