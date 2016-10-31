@@ -126,7 +126,7 @@ ___
 
 ___
 #### Themes
-Select an alternative color scheme by changing the `theme:` option in `_config.yml`.  
+Select an alternative color scheme by changing the `theme_color:` option in `_config.yml`.  
 
 ![Alternative Themes](screenshots/themes.png?raw=true "Alternative Themes")  
 
