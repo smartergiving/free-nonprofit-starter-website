@@ -8,23 +8,23 @@ org_name: United Disabled Persons of Laikipia
 org_summary: > # Enter your summary on the next line. Be sure to indent by two spaces.
   An excellent organization in uplifting living standards of persons with disabilities in Laikipia County and beyond.
 org_full_description: > # Enter your description on the next line. Be sure to indent by two spaces.
-  Ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
+  To be the organization of choice in awareness creation, advocacy and employment on matters pertaining to persons with disabilities.
 
 #OPTIONAL
 #Non US-address support coming soon
-org_general_email_inbox: your-email@somedomain.com
-org_street_address: 1355 Market Street #Please include suite number on the line below
-org_address_suite: Suite 900
-org_city: San Francisco
-org_state: CA
+org_general_email_inbox: udplaikipia@yahoo.com
+org_street_address: 3184 - 10400 #Please include suite number on the line below
+org_address_suite: Suite 10400
+org_city: Nanyuki
+org_state: KE
 org_zip: > # Enter zip on next line. Be sure to indent by two spaces.
-  94103
+  10400
 org_phone: > # Enter phone on next line. Be sure to indent by two spaces.
-  (123) 456-7890
+  (254) 705 431 420
 
 #SOCIAL MEDIA
-org_twitter_username: smartergiving
-org_facebook_username: smartergiving
+org_twitter_username: United Disabled Persons of Laikipia
+org_facebook_username: United Disabled Persons of Laikipia
 org_instagram_username:
 
 #TAX STATUS
@@ -38,16 +38,16 @@ fiscal_sponsor_name:
 #ONLINE DONATIONS & EMAIL SIGNUPS
 #To use these services, enter the required usernames. For further instructions, consult the README file.
 #If you do not wish to use a service, simply remove everything after the colon (:), leaving the item blank
-donorbox_campaign_name: free-template-demo
-tinyletter_username: interestingnonprofits
+donorbox_campaign_name: United-Disabled-Persons-of-Laikipia
+tinyletter_username: UnitedDisabledPersonsofLaikipia
 
 #SEARCH ENGINES
 #Changing this next setting to 'true' will allow your site to be indexed by search engines (like Google)
-publish: false
+publish: true
 
 #THEME
 #Select one of the five color schemes (default, one, two, three, or four)
-theme: default
+theme: one
 
 # *** DO NOT CHANGE ANYTHING BELOW THIS LINE ***
 
