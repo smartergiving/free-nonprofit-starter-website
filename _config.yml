@@ -39,7 +39,7 @@ fiscal_sponsor_name:
 #To use these services, enter the required usernames. For further instructions, consult the README file.
 #If you do not wish to use a service, simply remove everything after the colon (:), leaving the item blank
 donorbox_campaign_name: coviddonations
-tinyletter_username: interestingnonprofits
+tinyletter_username: manishletter
 
 #SEARCH ENGINES
 #Changing this next setting to 'true' will allow your site to be indexed by search engines (like Google)
