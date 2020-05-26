@@ -38,7 +38,7 @@ fiscal_sponsor_name:
 #ONLINE DONATIONS & EMAIL SIGNUPS
 #To use these services, enter the required usernames. For further instructions, consult the README file.
 #If you do not wish to use a service, simply remove everything after the colon (:), leaving the item blank
-donorbox_campaign_name: free-template-demo
+donorbox_campaign_name: coviddonations
 tinyletter_username: interestingnonprofits
 
 #SEARCH ENGINES
