@@ -33,7 +33,7 @@ org_instagram_username:
 fiscal_sponsor: false
 fiscal_sponsor_name:
 #If your organization is currently registered as a 501(c)3 organization, enter true below. Otherwise enter false. Enter false if you have a fiscal sponsor.
-501c3: true
+is_501c3: true
 
 #ONLINE DONATIONS & EMAIL SIGNUPS
 #To use these services, enter the required usernames. For further instructions, consult the README file.
@@ -45,9 +45,9 @@ tinyletter_username: interestingnonprofits
 #Changing this next setting to 'true' will allow your site to be indexed by search engines (like Google)
 publish: false
 
-#THEME
+#COLOR SCHEME
 #Select one of the five color schemes (default, one, two, three, or four)
-theme: default
+color_scheme: default
 
 # *** DO NOT CHANGE ANYTHING BELOW THIS LINE ***
 

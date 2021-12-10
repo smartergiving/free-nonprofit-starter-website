@@ -128,10 +128,10 @@ ___
 3. Need Help? Consider attending one of Github's [workshops](http://patchwork.github.io/) or [online trainings](https://training.github.com/classes/)
 
 ___
-#### Themes
-Select an alternative color scheme by changing the `theme:` option in `_config.yml`.  
+#### Color Schemes
+Select an alternative color scheme by changing the `color_scheme:` option in `_config.yml`.  
 
-![Alternative Themes](screenshots/themes.png?raw=true "Alternative Themes")  
+![Alternative Colors](screenshots/themes.png?raw=true "Alternative Colors")  
 
 ___
 #### Extras  

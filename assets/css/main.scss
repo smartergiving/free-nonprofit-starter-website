@@ -4,19 +4,19 @@
 @charset "utf-8";
 
 //
-// Set theme colors
+// Set color scheme
 //
 
-{% if site.theme == "one" %}
+{% if site.color_scheme == "one" %}
   $color: #17baef;
   $color-2: #eebf3f;
-{% elsif site.theme == "two" %}
+{% elsif site.color_scheme == "two" %}
   $color: #b4ca65;
   $color-2: #dd7c4f;
-{% elsif site.theme == "three" %}
+{% elsif site.color_scheme == "three" %}
   $color: #6690b9;
   $color-2: #f46fa3;
-{% elsif site.theme == "four" %}
+{% elsif site.color_scheme == "four" %}
   $color: #50c8c9;
   $color-2: #ffbe57;
 {% else %}

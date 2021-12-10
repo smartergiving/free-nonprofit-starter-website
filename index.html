@@ -156,7 +156,7 @@ layout: default
           <div class="donorbox text-center">
             <iframe src="https://donorbox.org/embed/{{ site.donorbox_campaign_name }}" height="600px" width="100%" style="max-width:500px; min-width:310px" seamless="seamless" name="donorbox" frameborder="0" scrolling="no"></iframe>
           </div>
-          {% if site.501c3 == true %}
+          {% if site.is_501c3 == true %}
             <p>Contributions are tax deductible to the extent permitted by law.<br>{{ site.org_name }} is a 501(c)(3) organization.</p>
           {% elsif site.fiscal_sponsor_name %}
             <p>{{ site.org_name }} is fiscally sponsored by {{ site.fiscal_sponsor_name }}, a 501 (c)(3) tax exempt non-profit organization.</p>
