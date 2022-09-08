@@ -4,28 +4,28 @@
 #If you see '> # Enter on the next line', be sure the next line remains indented two spaces.
 
 #REQUIRED
-org_name: Project Example
-org_summary: > # Enter your summary on the next line. Be sure to indent by two spaces.
-  A mobile-friendly Github Pages template designed to help grassroots nonprofits get a website online quickly
+org_name: Shinning Star
+org_summary: > # donating to the homeless in kenya.
+  donating to the homeless in kenya
 org_full_description: > # Enter your description on the next line. Be sure to indent by two spaces.
   Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
 
 #OPTIONAL
 #Non US-address support coming soon
-org_general_email_inbox: your-email@somedomain.com
+org_general_email_inbox: muthithe2002@gmail.com
 org_street_address: 1355 Market Street #Please include suite number on the line below
 org_address_suite: Suite 900
-org_city: San Francisco
-org_state: CA
+org_city: Nairobi
+org_state: KE
 org_zip: > # Enter zip on next line. Be sure to indent by two spaces.
   94103
 org_phone: > # Enter phone on next line. Be sure to indent by two spaces.
-  (123) 456-7890
+  (404) 914-8863
 
 #SOCIAL MEDIA
-org_twitter_username: smartergiving
-org_facebook_username: smartergiving
-org_instagram_username:
+org_twitter_username: @shiningstarcen1
+org_facebook_username: shiningstarcenter
+org_instagram_username: shiningstarcenter
 
 #TAX STATUS
 #Your site will display an appropriate message below the Donate section
@@ -47,7 +47,7 @@ publish: false
 
 #COLOR SCHEME
 #Select one of the five color schemes (default, one, two, three, or four)
-color_scheme: default
+color_scheme: four
 
 # *** DO NOT CHANGE ANYTHING BELOW THIS LINE ***
 
