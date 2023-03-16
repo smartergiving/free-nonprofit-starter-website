@@ -9,7 +9,8 @@ org_summary: > # Enter your summary on the next line. Be sure to indent by two s
   A mobile-friendly Github Pages template designed to help grassroots nonprofits get a website online quickly
 org_full_description: > # Enter your description on the next line. Be sure to indent by two spaces.
   Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
-
+org_full_description_fi: > # Enter your description on the next line. Be sure to indent by two spaces.
+  Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
 #OPTIONAL
 #Non US-address support coming soon
 org_general_email_inbox: your-email@somedomain.com
@@ -23,9 +24,9 @@ org_phone: > # Enter phone on next line. Be sure to indent by two spaces.
   (123) 456-7890
 
 #SOCIAL MEDIA
-org_twitter_username: smartergiving
-org_facebook_username: smartergiving
-org_instagram_username:
+twitter_username: smartergiving
+facebook_username: smartergiving
+instagram_username:
 
 #TAX STATUS
 #Your site will display an appropriate message below the Donate section
