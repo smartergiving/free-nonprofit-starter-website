@@ -95,6 +95,15 @@ layout: default
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
               </form-->
               {% endif %}
+
+            {% if site.mesenaatti_id %}
+              <!-- If theres mesenaatti campaing, show it -->
+
+              <a href="https://mesenaatti.me/{{site.mesenaatti_id}}" class="myButton">green</a>
+            
+            {% endif %}
+
+        
         </div><!--//btn-container-->
       </div><!--//cta-container-->
     </div><!--//donate-inner-->
