@@ -623,3 +623,24 @@ pre code {
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
+.myButton {
+  background-color:#77d42a;
+  -webkit-border-radius:42px;
+  -moz-border-radius:42px;
+  border-radius:42px;
+  display:inline-block;
+  cursor:pointer;
+  color:#306108;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:10px 34px;
+  text-decoration:none;
+}
+.myButton:hover {
+  background-color:#5cb811;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
