@@ -7,7 +7,7 @@
 org_name: LuovaClub AI Subtitles
 org_summary: > # Enter your summary on the next line. Be sure to indent by two spaces.
   A mobile-friendly Github Pages template designed to help grassroots nonprofits get a website online quickly
-org_full_description: > # Enter your description on the next line. Be sure to indent by two spaces.
+org_full_description_en: > # Enter your description on the next line. Be sure to indent by two spaces.
   Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
 org_full_description_fi: > # Enter your description on the next line. Be sure to indent by two spaces.
   Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
@@ -27,14 +27,6 @@ org_phone: > # Enter phone on next line. Be sure to indent by two spaces.
 twitter_username: smartergiving
 facebook_username: smartergiving
 instagram_username:
-
-#TAX STATUS
-#Your site will display an appropriate message below the Donate section
-#If your organization is fiscally sponsored, enter true below and add your sponsor's name. Otherwise enter false.
-fiscal_sponsor: false
-fiscal_sponsor_name:
-#If your organization is currently registered as a 501(c)3 organization, enter true below. Otherwise enter false. Enter false if you have a fiscal sponsor.
-is_501c3: true
 
 #ONLINE DONATIONS & EMAIL SIGNUPS
 #To use these services, enter the required usernames. For further instructions, consult the README file.
@@ -67,7 +59,8 @@ sass:
 #These are not yet fully supported, but should give you a head start if you know what you're doing
 paypal_button_id: #Not yet available
 smartergiving_id: #Not yet available
-mesenaatti_id: 100
+mesenaatti_id: #Not yet known
+
 #mailchimp_embed_code: > # Enter Mailchimp post url on next line.
 #  //getkyn.us5.list-manage.com/subscribe/post?u=1407d7ee4cd0d47986cd54315&amp;id=cdc32b64fe
 #mailchimp_spam_guard: b_753395b9f963c9ea2d6980b7c_9e1559c2f0

@@ -22,9 +22,8 @@ layout: default
         <ul class="nav navbar-nav">
           <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
           <li class="nav-item"><a class="scrollto" href="#about">About</a></li>
-          <li class="nav-item"><a class="scrollto" href="#join">Join Us</a></li>
           <li class="nav-item"><a class="scrollto" href="#contact">Contact</a></li>
-          <li class="nav-item last"><a class="scrollto highlight" href="#donate">Donate</a></li>
+          <li class="nav-item last"><a class="scrollto highlight" href="#rahoita">Rahoita meitä</a></li>
         </ul><!--//nav-->
       </div><!--//navabr-collapse-->
     </nav><!--//main-nav-->
@@ -74,7 +73,7 @@ layout: default
 
 <!-- ******DONATE****** -->
 
-<section id="donate" class="donate section text-center">
+<section id="rahoita" class="donate section text-center">
   <div class="container">
     <div class="donate-inner">
       <h2 class="title text-center">Rahoita</h2>
@@ -92,6 +91,13 @@ layout: default
               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
               <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
             </form-->
+            {% endif %}
+
+            {% if site.mesenaatti_id %}
+              <!-- If theres mesenaatti campaing, show it -->
+
+              <a href="https://mesenaatti.me/{{site.mesenaatti_id}}/" class="myButton">Rahoita meitä mesenaatti.me ssä</a>
+            
             {% endif %}
         </div><!--//btn-container-->
       </div><!--//cta-container-->
@@ -115,7 +121,7 @@ layout: default
       </address>
       <div class="clearfix"></div>
       <div class="info text-center">
-        <h4 class="sub-title">Get Connected</h4>
+        <h4 class="sub-title">Me somessa</h4>
         <ul class="social-icons list-inline">
         {% if site.twitter_username %}
         <li><a href="https://twitter.com/{{ site.org_twitter_username }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
